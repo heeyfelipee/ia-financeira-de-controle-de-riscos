@@ -3,40 +3,142 @@
     "nome": "Tesouro Selic",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "100% da Selic",
+    "rentabilidade": "100% da Selic (variável)",
     "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "indicado_para": "Reserva de emergência e iniciantes",
+    "descricao": "Título público pós-fixado com alta liquidez e baixo risco de crédito; indicado para manter capital preservado e liquidez imediata.",
+    "riscos_associados": [
+      "risco_de_mercado (variação da Selic)",
+      "risco_operacional (falhas na liquidação ou integração com custódia)"
+    ],
+    "controles_recomendados": [
+      "checagem_de_suitability antes da oferta",
+      "monitoramento_automático de liquidez",
+      "registro_de_origem_de_recursos para aportes atípicos"
+    ],
+    "requisitos_conformidade": [
+      "KYC atualizado",
+      "documentação de origem de recursos para aportes acima de limites definidos"
+    ],
+    "notas_operacionais": "Evitar sugerir como produto de longo prazo sem explicar impacto de inflação; alertas automáticos para aportes atípicos."
   },
   {
     "nome": "CDB Liquidez Diária",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "102% do CDI",
+    "rentabilidade": "102% do CDI (exemplo)",
     "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "indicado_para": "Quem busca segurança com rendimento diário",
+    "descricao": "CDB com liquidez diária oferecido pela cooperativa; remuneração atrelada ao CDI com possibilidade de resgate imediato.",
+    "riscos_associados": [
+      "risco_de_credito (em caso de deterioração da instituição emissora)",
+      "risco_operacional (processamento de resgates em massa)"
+    ],
+    "controles_recomendados": [
+      "limites_de_resgate_por_dia para evitar estresse de liquidez",
+      "monitoramento_de_fluxo de caixa e stress tests periódicos",
+      "verificação_anti_fraude em solicitações de resgate por canais não usuais"
+    ],
+    "requisitos_conformidade": [
+      "divulgação clara de condições e prazos",
+      "registro de consentimento para operações via canais digitais"
+    ],
+    "notas_operacionais": "Implementar autenticação reforçada (2FA) para resgates acima de determinado valor; logs auditáveis para conciliação."
   },
   {
-    "nome": "LCI/LCA",
+    "nome": "LCI/LCA 90 dias",
     "categoria": "renda_fixa",
     "risco": "baixo",
-    "rentabilidade": "95% do CDI",
+    "rentabilidade": "95% do CDI (isento de IR para pessoa física)",
     "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "indicado_para": "Quem pode esperar 90 dias e busca isenção fiscal",
+    "descricao": "Letras de crédito imobiliário/agro com prazo mínimo de 90 dias; isenção de IR para pessoa física e foco em preservação de capital.",
+    "riscos_associados": [
+      "risco_de_liquidez (resgate somente no vencimento)",
+      "risco_de_credito (inadimplência do lastro)"
+    ],
+    "controles_recomendados": [
+      "aviso_previo ao cliente sobre bloqueio de resgate até vencimento",
+      "análise_do_lastro e due diligence periódica",
+      "monitoramento de concentração por emissor"
+    ],
+    "requisitos_conformidade": [
+      "comprovação de lastro e documentação legal",
+      "divulgação de cláusulas de carência e penalidades"
+    ],
+    "notas_operacionais": "Sinalizar produto como inadequado para perfis com alta necessidade de liquidez; registrar aceite do cliente sobre prazo."
   },
   {
-    "nome": "Fundo Multimercado",
+    "nome": "Fundo Multimercado Conservador",
     "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
+    "risco": "médio",
+    "rentabilidade": "varia; objetivo: superar CDI com volatilidade controlada",
     "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "indicado_para": "Perfil moderado que busca diversificação com controle de risco",
+    "descricao": "Fundo multimercado com estratégia diversificada (renda fixa, crédito privado e hedge); gestão ativa com limites de exposição.",
+    "riscos_associados": [
+      "risco_de_mercado (variação de taxas e spreads)",
+      "risco_operacional (erros de execução, falhas de custódia)",
+      "risco_de_conformidade (adequação de divulgação e prospecto)"
+    ],
+    "controles_recomendados": [
+      "limites_de_alocacao por classe de ativo",
+      "stress_tests mensais e simulações de liquidez",
+      "checagem_de_adequacao (suitability) antes da aplicação"
+    ],
+    "requisitos_conformidade": [
+      "prospecto atualizado e disponível",
+      "relatórios periódicos de risco e composição",
+      "registro de suitability e consentimento do cliente"
+    ],
+    "notas_operacionais": "Automatizar alertas quando exposição ultrapassar gatilhos; exigir documentação adicional para investidores institucionais."
   },
   {
-    "nome": "Fundo de Ações",
+    "nome": "Fundo de Ações - Longo Prazo",
     "categoria": "fundo",
     "risco": "alto",
-    "rentabilidade": "Variável",
+    "rentabilidade": "variável; foco em valorização no longo prazo",
     "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "indicado_para": "Perfil arrojado com horizonte de longo prazo",
+    "descricao": "Fundo com carteira concentrada em ações nacionais e internacionais; alta volatilidade e potencial de retorno no longo prazo.",
+    "riscos_associados": [
+      "risco_de_mercado (alta volatilidade)",
+      "risco_de_liquidez (ativos menos líquidos em momentos de estresse)",
+      "risco_operacional (execução e custódia de ativos estrangeiros)"
+    ],
+    "controles_recomendados": [
+      "aviso_de_risco claro no momento da venda",
+      "limites de concentração por emissor/setor",
+      "procedimentos de liquidação e fallback em caso de indisponibilidade de mercado"
+    ],
+    "requisitos_conformidade": [
+      "divulgação de política de investimento e riscos",
+      "registro de suitability e confirmação de entendimento do cliente"
+    ],
+    "notas_operacionais": "Bloquear ofertas automáticas para perfis conservadores; monitorar ordens de resgate em cenários de queda abrupta."
+  },
+  {
+    "nome": "Conta Remunerada Cooperativa",
+    "categoria": "conta_produto",
+    "risco": "baixo-médio",
+    "rentabilidade": "remuneração variável atrelada a índice interno (ex.: 80% do CDI)",
+    "aporte_minimo": 0.00,
+    "indicado_para": "Associados que desejam rendimento com alta liquidez",
+    "descricao": "Conta corrente com remuneração diária; combina funcionalidades de conta com rendimento automático.",
+    "riscos_associados": [
+      "risco_de_liquidez (saques concentrados)",
+      "risco_operacional (erros em cálculo de rendimento)",
+      "risco_de_fraude (transferências não autorizadas)"
+    ],
+    "controles_recomendados": [
+      "limites_de_transferencia e alertas para movimentações atípicas",
+      "reconciliação diária de rendimentos",
+      "autenticacao_forte para operações sensíveis"
+    ],
+    "requisitos_conformidade": [
+      "política clara de remuneração e tarifas",
+      "registro de consentimento para débito automático e investimentos automáticos"
+    ],
+    "notas_operacionais": "Implementar monitoramento em tempo real para detectar saques em massa; plano de contingência de liquidez."
   }
 ]
