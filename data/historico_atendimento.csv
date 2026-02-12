@@ -1,6 +1,13 @@
 data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos de CDBs; esclarecido e enviado material,sim
+2025-09-18,telefone,Suspeita de fraude,Associado relatou débito não reconhecido; transação bloqueada e investigação iniciada,pendente
+2025-09-22,telefone,Problema no app,Erro ao visualizar extrato devido a atualização; correção aplicada e usuário orientado,sim
+2025-09-30,email,Atualização cadastral,Solicitação de alteração de endereço e comprovante recebido; KYC atualizado,sim
+2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre funcionamento e riscos do Tesouro Direto; material educativo enviado,sim
+2025-10-05,chat,Irregularidade em empréstimo,Detectado pedido de empréstimo com documentos inconsistentes; caso encaminhado para compliance,pendente
+2025-10-12,chat,Metas financeiras,Cliente acompanhou progresso da reserva de emergência e recebeu recomendações de alocação,sim
+2025-10-20,email,Risco de liquidez,Gerente consultou projeção de fluxo de caixa para próximos 30 dias; relatório gerado e reunião agendada,sim
+2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone; verificação de identidade concluída,sim
+2025-11-03,chat,Risco de mercado,Associado questionou impacto de alta de juros na carteira; análise de sensibilidade enviada,sim
+2025-11-15,telefone,Falha operacional,Sistema de conciliação apresentou inconsistência; equipe de TI acionada e processo manual adotado temporariamente,pendente
+2025-11-28,chat,Conformidade/AML,Alerta de transação atípica gerou investigação AML; documentação solicitada ao associado e caso em análise,pendente
