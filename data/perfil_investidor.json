@@ -1,23 +1,134 @@
 {
-  "nome": "João Silva",
-  "idade": 32,
-  "profissao": "Analista de Sistemas",
+  "nome": "Murilo Duarte",
+  "idade": 25,
+  "profissao": "Engenheiro Agônomo",
   "renda_mensal": 5000.00,
   "perfil_investidor": "moderado",
   "objetivo_principal": "Construir reserva de emergência",
   "patrimonio_total": 15000.00,
   "reserva_emergencia_atual": 10000.00,
   "aceita_risco": false,
+  "contato_consentimento": true,
   "metas": [
     {
       "meta": "Completar reserva de emergência",
       "valor_necessario": 15000.00,
-      "prazo": "2026-06"
+      "prazo": "2026-06",
+      "prioridade": "alta"
     },
     {
       "meta": "Entrada do apartamento",
       "valor_necessario": 50000.00,
-      "prazo": "2027-12"
+      "prazo": "2027-12",
+      "prioridade": "média"
     }
-  ]
+  ],
+  "perfil_operacional": {
+    "limite_transferencia_diaria": 5000.00,
+    "preferencia_canal": "chat",
+    "autenticacao_2fa": true,
+    "ultima_atualizacao_cadastral": "2025-09-30"
+  },
+  "historico_alertas": [
+    {
+      "id": "ALRT-2025-09-18-001",
+      "data": "2025-09-18",
+      "tipo": "fraude",
+      "descricao": "Débito não reconhecido em conta corrente; transação internacional via cartão; bloqueio preventivo aplicado.",
+      "status": "investigacao",
+      "acao_tomada": "bloqueio de cartão; solicitação de contestação; abertura de caso AML"
+    },
+    {
+      "id": "ALRT-2025-10-05-002",
+      "data": "2025-10-05",
+      "tipo": "irregularidade documental",
+      "descricao": "Pedido de empréstimo com documentos com assinaturas e comprovantes inconsistentes.",
+      "status": "encaminhado_compliance",
+      "acao_tomada": "suspensão da análise de crédito; verificação KYC aprofundada"
+    },
+    {
+      "id": "ALRT-2025-11-28-003",
+      "data": "2025-11-28",
+      "tipo": "transacao_atipica",
+      "descricao": "Movimentação atípica de valores entre contas vinculadas; gatilho de regra AML.",
+      "status": "pendente_documentacao",
+      "acao_tomada": "solicitado comprovante de origem de recursos; monitoramento em tempo real"
+    }
+  ],
+  "indicadores_risco": {
+    "inadimplencia_potencial": "baixa",
+    "exposicao_mercado": "moderada",
+    "risco_liquidez": "baixo",
+    "risco_operacional": "moderado",
+    "conformidade": "em_monitoramento"
+  },
+  "checagens_automatizadas": [
+    {
+      "nome": "Verificacao_KYC",
+      "descricao": "Confere consistência de documentos e dados cadastrais com bases internas e externas.",
+      "frequencia": "on_change",
+      "resultado_atual": "ok"
+    },
+    {
+      "nome": "Deteccao_transacoes_atipicas",
+      "descricao": "Modelo ML que sinaliza padrões de gasto e transferências fora do perfil.",
+      "frequencia": "tempo_real",
+      "resultado_atual": "3 alertas no último trimestre"
+    },
+    {
+      "nome": "Checagem_alucinacao_respostas",
+      "descricao": "Valida respostas do LLM contra base de conhecimento e fontes primárias antes de apresentar ao usuário.",
+      "frequencia": "cada_resposta",
+      "resultado_atual": "operacional"
+    }
+  ],
+  "medidas_preventivas_e_recomendacoes": [
+    {
+      "tipo": "operacional",
+      "acao": "Limitar transferências acima de R$ 5.000 sem confirmação adicional (2FA)."
+    },
+    {
+      "tipo": "conformidade",
+      "acao": "Solicitar documentação complementar para operações atípicas e registrar justificativas no caso."
+    },
+    {
+      "tipo": "educacional",
+      "acao": "Enviar material sobre prevenção a fraudes e importância da atualização cadastral."
+    },
+    {
+      "tipo": "financeiro",
+      "acao": "Reforçar aporte mensal automático para completar reserva de emergência até prazo definido."
+    }
+  ],
+  "cenarios_simulados": [
+    {
+      "cenario": "tentativa_de_fraude_cartao",
+      "descricao": "Transação internacional de alto valor em horário atípico; sistema bloqueia e aciona verificação por 2FA.",
+      "resultado_esperado": "bloqueio_automatico; abertura_de_ticket; notificação_ao_associado"
+    },
+    {
+      "cenario": "pedido_emprestimo_com_documentos_falsos",
+      "descricao": "Solicitação de crédito com comprovantes adulterados; fluxo encaminha para compliance e suspende concessão.",
+      "resultado_esperado": "suspensao_analise; investigacao_documental; registro_para_auditoria"
+    },
+    {
+      "cenario": "queda_rapida_de_liquidez",
+      "descricao": "Saque concentrado em curto período detectado na carteira local; alerta para gestores financeiros com projeção de 30 dias.",
+      "resultado_esperado": "acionamento_plano_contingencia; restricao_operacional_temporaria; comunicacao_ao_conselho"
+    }
+  ],
+  "notas_compliance": [
+    {
+      "data": "2025-10-20",
+      "assunto": "Projecao_fluxo_caixa",
+      "descricao": "Relatório gerado para avaliar risco de liquidez nos próximos 30 dias; sem necessidade de medidas emergenciais no momento."
+    },
+    {
+      "data": "2025-11-01",
+      "assunto": "Atualizacao_politica_credito",
+      "descricao": "Recomendação de ajuste de score mínimo para novos empréstimos após aumento de pedidos com documentação inconsistente."
+    }
+  ],
+  "ultima_atualizacao": "2025-11-28",
+  "observacoes_finais": "Perfil configurado para priorizar segurança e conformidade. Todas as ações que envolvem dados sensíveis exigem consentimento explícito do associado e registro para auditoria."
 }
