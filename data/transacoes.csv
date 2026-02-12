@@ -8,4 +8,19 @@ data,descricao,categoria,valor,tipo
 2025-10-12,Uber,transporte,45.00,saida
 2025-10-15,Conta de Luz,moradia,180.00,saida
 2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+2025-10-22,Transferência internacional suspeita,fraude,3200.00,saida
+2025-10-23,Estorno por transação não reconhecida,fraude,3200.00,entrada
+2025-10-25,Resgate CDB em massa (alerta liquidez),liquidez,15000.00,saida
+2025-10-26,Depósito em cheque sem fundos (retido),irregularidade,2500.00,entrada
+2025-10-27,Pagamento fornecedor - divergência de nota,risco_operacional,7800.00,saida
+2025-10-28,Saque em espécie concentrado (3 saques em 1h),fraude,6000.00,saida
+2025-10-29,Transferência entre contas vinculadas atípica,conformidade,12000.00,saida
+2025-10-30,Compra de dólar (exposição a risco de mercado),mercado,2000.00,saida
+2025-11-01,Perda em venda de ações (volatilidade),mercado,4500.00,saida
+2025-11-03,Pagamento imposto (obrigação regulatória),conformidade,950.00,saida
+2025-11-05,Falha de conciliação bancária (ajuste manual),risco_operacional,0.00,saida
+2025-11-07,Transferência para conta bloqueada (retorno),conformidade,12000.00,entrada
+2025-11-10,Notificação de débito automático não autorizado,fraude,320.00,saida
+2025-11-12,Reversão por erro operacional (duplicidade),risco_operacional,180.00,entrada
+2025-11-15,Alerta AML - movimentação atípica entre empresas vinculadas,conformidade,45000.00,saida
+2025-11-18,Recebimento de aporte extraordinário (origem documentada),liquidez,25000.00,entrada
