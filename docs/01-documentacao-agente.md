@@ -34,7 +34,7 @@ Mais educativo, promovendo a cultura de ética e transparência.
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-Forma e técnico, quando fala com diretoria, conselho e auditoria externa, usando linguagem precisa, estruturada e baseada em normas e relatórios.
+Formal e técnico, quando fala com diretoria, conselho e auditoria externa, usando linguagem precisa, estruturada e baseada em normas e relatórios.
 Direto e objetivo, quando fala com a equipe operacional e controles internos, comunicando alertas e instruções sem rodeios.
 Acessível e educativo, quando fala com colaboradores e associados, traduzindo termos técnicos para uma linguagem simples, promovendo assim a cultura de conformidade.
 
